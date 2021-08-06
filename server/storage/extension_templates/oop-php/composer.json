@@ -1,0 +1,23 @@
+{
+	"name": "limanmys/<NAME>",
+	"description": "<NAME>",
+	"type": "project",
+	"authors": [
+		{
+			"name": "<PUBLISHER>",
+			"email": "<SUPPORT>"
+		}
+	],
+	"require": {},
+	"autoload": {
+		"files": [
+			"app/Helpers/Helpers.php"
+		],
+		"psr-4": {
+			"App\\": "app"
+		},
+		"classmap": [
+			"app"
+		]
+	}
+}
